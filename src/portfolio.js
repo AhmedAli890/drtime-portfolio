@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ahmed Ali",
+  title: "Hi, I'm Ahmed — Network & Security Professional",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Network & Security specialist with hands-on experience across SOC operations, firewalls (Fortinet/Sophos), identity (Cisco ISE), SIEM, and enterprise infrastructure. I build resilient networks, optimize security posture, and lead 24/7 teams to operational excellence."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1OO2JnlprVBTWCw_DOwt3CwPUVE1ZY4cI/view?usp=sharing", // You can replace with a direct CV link
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "",
+  linkedin: "https://www.linkedin.com/in/ahmed-ali890/",
+  gmail: "Ahmad.aly890@outlook.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,73 +49,30 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "NETWORK & SECURITY ENGINEER — BUILDING STABLE, SECURE, SCALABLE SYSTEMS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Design, harden, and troubleshoot enterprise networks & security controls"),
+    emoji("⚡ Fortinet (NSE 1-4, 7 SD-WAN), Sophos firewalls, IPS, VPN, HA, SD‑WAN"),
+    emoji("⚡ Identity-based access with Cisco ISE; VLANs, WLAN controllers"),
+    emoji("⚡ SIEM monitoring, incident handling, vulnerability assessment, and playbooks"),
+    emoji("⚡ Endpoint protection (Kaspersky Security Center) and Windows Server administration")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Networking", fontAwesomeClassname: "fas fa-network-wired" },
+    { skillName: "Security", fontAwesomeClassname: "fas fa-shield-alt" },
+    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
+    { skillName: "Windows Server", fontAwesomeClassname: "fab fa-windows" },
+    { skillName: "Fortinet", fontAwesomeClassname: "fas fa-fire" },
+    { skillName: "Cisco ISE", fontAwesomeClassname: "fas fa-user-shield" },
+    { skillName: "VPN", fontAwesomeClassname: "fas fa-lock" },
+    { skillName: "SIEM", fontAwesomeClassname: "fas fa-search" },
+    { skillName: "Virtualization", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "Scripting", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Databases", fontAwesomeClassname: "fas fa-database" }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +83,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Nile Higher Institute for Science and Technology",
+      logo: require("./assets/images/stanfordLogo.png"), // placeholder
+      subHeader: "BSc in Information Technology — Grade: Very Good",
+      duration: "2013 - 2017",
+      desc: "Core focus on networking, systems, and security fundamentals."
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "National Telecommunication Institute (NTI)",
+      logo: require("./assets/images/harvardLogo.png"), // placeholder
+      subHeader: "Cybersecurity Operations",
+      duration: "2019",
+      desc: "Hands-on security operations and incident response practices."
     }
   ]
 };
@@ -152,20 +104,11 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    { Stack: "Network/Security Architecture", progressPercentage: "90%" },
+    { Stack: "Operations & Incident Response", progressPercentage: "85%" },
+    { Stack: "Systems & Automation", progressPercentage: "70%" }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -174,216 +117,160 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "System Operation Supervisor",
+      company: "WAVZ (Egypt Post Project)",
+      companylogo: require("./assets/images/airbnbLogo.png"), // placeholder
+      date: "Mar 2024 – Present",
+      desc: "Lead SOC operators across multiple 24/7/365 shifts; oversee performance, schedules, and coordination with internal/external response teams."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Security Consultant",
+      company: "Technology Village",
+      companylogo: require("./assets/images/quoraLogo.png"), // placeholder
+      date: "Dec 2023 – Present",
+      desc: "Deployed/maintained FortiGate firewalls (policy, IPS, VPNs, UTM, HA), Cisco ISE identity policies, WLAN/VLAN, and Kaspersky Security Center."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Resident Operations Manager",
+      company: "WAVZ (Citizen Card Project)",
+      companylogo: require("./assets/images/facebookLogo.png"), // placeholder
+      date: "Jul 2023 – Feb 2024",
+      desc: "Ensured on-time, cost-effective delivery; tracked progress and coordinated stakeholders across Port Said operation."
+    },
+    {
+      role: "System Operations Engineer",
+      company: "WAVZ (Egypt Post Project)",
+      companylogo: require("./assets/images/saayaHealthLogo.webp"), // placeholder
+      date: "Jun 2022 – Jul 2023",
+      desc: "Monitored SIEM/security tools, escalated incidents, ran vulnerability assessments, and authored procedures."
+    },
+    {
+      role: "Network & Security Engineer",
+      company: "Albargasy Group",
+      companylogo: require("./assets/images/nextuLogo.webp"), // placeholder
+      date: "Jan 2021 – Jun 2022",
+      desc: "Implemented security policies, awareness programs; managed Aruba switches & Sophos firewalls; handled endpoint and cloud security."
+    },
+    {
+      role: "Network Engineer",
+      company: "Albargasy Group",
+      companylogo: require("./assets/images/pwaLogo.webp"), // placeholder
+      date: "Jul 2019 – Jan 2021",
+      desc: "Managed firewalls, routers, VPNs, servers, and Hyper‑V; enforced network policies and resolved incidents."
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
+/* Your Open Source Section */
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false",
+  display: false
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "PLATFORMS & INITIATIVES I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Zakhrafaa (زخرفة) Platform",
+      projectDesc: "Web marketplace for crystal/glass decoration — onboarding sellers, subscriptions, and catalog management.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        { name: "Visit Website", url: "https://zakhrafa.vercel.app/home" }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Jarrah Glass Art",
+      projectDesc: "Hand‑decorated glass products: branding, catalog, and operations workflow.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        { name: "Contact", url: "https://www.linkedin.com/in/ahmed-ali890/" }
+      ]
+    },
+    {
+      image: require("./assets/images/pwaLogo.webp"),
+      projectName: "Network Implementations",
+      projectDesc: "Enterprise network builds & upgrades for Option Travel and SC‑Zone Port Said.",
+      footerLink: [
+        { name: "Overview", url: "https://www.linkedin.com/in/ahmed-ali890/" }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements & Certifications 🏆"),
+  subtitle: "Selected certifications and professional highlights",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Certifications",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "CCNA R&S • CCNP Security SCOR • MCSA 2016 • CompTIA Security+ • ITIL Foundation • SANS Cyber Aces • CCNA CyberOps • CNSS (ICSI) • Fortinet NSE 1,2,3,4,7 (SD‑WAN)",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      imageAlt: "Certs",
+      footerLink: [{ name: "LinkedIn Certifications", url: "https://www.linkedin.com/in/ahmed-ali890/details/certifications/" }]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  title: "Posts",
+  subtitle: "Security notes & architecture thoughts",
+  displayMediumBlogs: "false",
+  blogs: [],
+  display: false
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  title: "Talks",
+  subtitle: emoji("Knowledge sharing & workshops"),
+  talks: [],
+  display: false
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "I LOVE TO TALK ABOUT TECHNOLOGY",
+  podcast: [],
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Download my latest CV",
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Want to discuss a role or a project? My inbox is open.",
+  number: "+20-106-417-1888",
+  email_address: "Ahmad.aly890@outlook.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Open for opportunities
 
 export {
   illustration,
@@ -404,4 +291,131 @@ export {
   twitterDetails,
   isHireable,
   resumeSection
+};
+
+
+// === Auto-generated CV export ===
+export const resume = {
+  "name": "Ahmed Ali",
+  "email": "Ahmad.aly890@outlook.com",
+  "phone": "01064171888",
+  "location": "Egypt",
+  "summary": "Motivated and experienced Network & Security Professional seeking a challenging role to leverage my technical expertise, certifications, and leadership skills in a dynamic and growth-oriented environment. Passionate about cybersecurity and continuous improvement, aiming to contribute to organisational success through proactive security management and infrastructure optimisation.",
+  "experience": [
+    {
+      "title": "System Operation Supervisor",
+      "company": "WAVZ (Egypt Post Project)",
+      "location": "Smart Village, Egypt",
+      "date": "Mar 2024 – Present",
+      "bullets": [
+        "Lead a team of SOC Operators across multiple 24/7/365 shifts.",
+        "Oversee daily SOC operations including attendance, performance, development, and shift scheduling.",
+        "Support flexible scheduling, including weekends and holidays.",
+        "Coordinate with internal and external emergency teams."
+      ]
+    },
+    {
+      "title": "Security Consultant",
+      "company": "Technology Village",
+      "location": "Remote",
+      "date": "Dec 2023 – Present",
+      "bullets": [
+        "Deployed, configured, and maintained FortiGate firewalls end-to-end (rules, IPS, VPNs, UTM, HA).",
+        "Implemented identity-based access with Cisco ISE and managed policy enforcement.",
+        "Configured Wireless Controllers including WLAN, VLANs, and optimisation.",
+        "Administered Kaspersky Security Center for endpoint protection and malware response.",
+        "Handled security operations: troubleshooting, updates, planning, and architecture improvements."
+      ]
+    },
+    {
+      "title": "Resident Operations Manager",
+      "company": "WAVZ (Citizen Card Project)",
+      "location": "Port Said, Egypt",
+      "date": "Jul 2023 – Feb 2024",
+      "bullets": [
+        "Ensured smooth, timely, and cost-effective project delivery.",
+        "Monitored project progress and planned key segments.",
+        "Demonstrated excellent negotiation and team collaboration skills."
+      ]
+    },
+    {
+      "title": "System Operations Engineer",
+      "company": "WAVZ (Egypt Post Project)",
+      "location": "Smart Village, Egypt",
+      "date": "Jun 2022 – Jul 2023",
+      "bullets": [
+        "Monitored and analysed events using SIEM and security tools.",
+        "Escalated incidents, conducted vulnerability assessments, and maintained documentation.",
+        "Developed security procedures and responded to emerging threats."
+      ]
+    },
+    {
+      "title": "Network & Security Engineer",
+      "company": "Albargasy Group",
+      "location": "Giza, Egypt",
+      "date": "Jan 2021 – Jun 2022",
+      "bullets": [
+        "Implemented security policies and conducted awareness training.",
+        "Managed Aruba switches and Sophos firewalls, monitored AlienVault SIEM.",
+        "Handled endpoint security and cloud services; conducted vulnerability scanning."
+      ]
+    },
+    {
+      "title": "Network Engineer",
+      "company": "Albargasy Group",
+      "location": "Giza, Egypt",
+      "date": "Jul 2019 – Jan 2021",
+      "bullets": [
+        "Managed firewalls, routers, VPNs, servers, and Hyper-V hosts.",
+        "Defined and enforced network policies; resolved network issues."
+      ]
+    }
+  ],
+  "projects": [
+    "Network & Infrastructure Upgrade Project @ Albargasy Automotive",
+    "Network Implementation @ Option Travel",
+    "Network Implementation @ SC-Zone Port Said",
+    "Zakhrafaa (زخرفة) Platform",
+    "Jarrah Glass Art"
+  ],
+  "education": [
+    {
+      "degree": "BSc in Information Technology",
+      "school": "Nile Higher Institute for Science and Technology",
+      "location": "Mansoura, Egypt",
+      "details": "Graduated: 2017 | Grade: Very Good"
+    },
+    {
+      "degree": "Cybersecurity Operations",
+      "school": "National Telecommunication Institute (NTI)",
+      "location": "",
+      "details": "Year: 2019"
+    }
+  ],
+  "certifications": [
+    "CCNA R&S 200-125",
+    "MCSA Windows Server 2016",
+    "SANS Cyber Aces",
+    "CompTIA Security+",
+    "ITIL Foundation",
+    "CCNA CyberOps (Diploma & Certificate)",
+    "CNSS Certified Network Security Specialist (ICSI)",
+    "Fortinet NSE 1, 2, 3 | NSE 4 (Administrator), NSE 7 (SD-WAN)",
+    "CCNP Security SCOR (350-701)"
+  ],
+  "skills": [
+    "Time Management & Problem Solving",
+    "IT Strategy & Security Architecture",
+    "Team Communication & Leadership",
+    "Infrastructure & Firewall Management",
+    "SIEM Tools & Vulnerability Assessment",
+    "Creative Design & Service-Oriented Mindset"
+  ],
+  "languages": [
+    { "name": "Arabic", "level": "Native" },
+    { "name": "English", "level": "Professional Proficiency" }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/ahmed-ali890/"
+  }
 };
